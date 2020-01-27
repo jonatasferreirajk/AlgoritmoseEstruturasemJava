@@ -25,6 +25,7 @@ public class selection_sort {
 			pos = i+1;
 			//laço que pecorre os elementos que estão há direita do número eleito
 			//retornando o menor número á direta e sua posição
+			// eu ignoro a primeira posicao e ja comparo a partir da 2º ou 3º posição do array
 			for (j = i+2; j <= 4; j++) {
 				if(X[j] < menor) {
 					menor = X[j];
