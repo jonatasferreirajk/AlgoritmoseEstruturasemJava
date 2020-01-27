@@ -25,6 +25,7 @@ public class insertion_sort {
 			}
 			x[j+1] = eleito;
 		}
+		System.out.println("Imprimindo Ordenado...");
 		for (i = 0; i <= 4; i++) {
 			System.out.println((i+1)+"º número:"+ x[i]);
 		}
